@@ -2,6 +2,8 @@
 
 Tour Odissey è un'applicazione backend sviluppata in Java Spring Boot che fornisce API REST per la gestione di tour, agenzie, filiali, prenotazioni e commenti. Il sistema include autenticazione basata su JWT, gestione ruoli (ADMIN, OPERATOR, CUSTOMER), validazione dati, gestione centralizzata delle eccezioni e documentazione interattiva con Swagger/OpenAPI.
 
+Tour Odissey integra un motore di generazione automatica di tour basato su Intelligenza Artificiale. Questa funzionalità consente agli operatori di creare descrizioni accattivanti, itinerari dettagliati o pacchetti turistici completi in modo automatico, sfruttando API di AI generative.
+
 L'obiettivo è offrire una piattaforma scalabile e sicura per operatori turistici e clienti finali.
 
 Tecnologie utilizzate
@@ -18,7 +20,7 @@ Tecnologie utilizzate
 
     Spring Mail (invio email)
 
-    JJWT (gestione token)
+    JWT (gestione token)
 
     Swagger (springdoc-openapi) per documentazione API
 
